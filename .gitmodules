@@ -1,0 +1,3 @@
+[submodule "editorjs-footnotes"]
+	path = editorjs-footnotes
+	url = https://github.com/jakekara/editorjs-footnotes

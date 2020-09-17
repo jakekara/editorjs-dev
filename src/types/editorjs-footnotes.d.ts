@@ -1,0 +1,1 @@
+declare module "@jakekara/editorjs-footnotes";
