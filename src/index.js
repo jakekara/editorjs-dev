@@ -1,1 +1,3 @@
-console.log("Hello from index!");
+import hello from "./hello";
+
+console.log(hello("Earth"));
