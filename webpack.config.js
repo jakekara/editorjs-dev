@@ -2,10 +2,11 @@ module.exports = {
   mode: "production",
   devtool: "inline-source-map",
   entry: {
-    main: "./src/index.js",
+    main: "./src/index",
   },
   output: {
     filename: "[name].js",
+    chunkFilename: "[name].bundle.js",
     path: __dirname + "/dist",
   },
   module: {
