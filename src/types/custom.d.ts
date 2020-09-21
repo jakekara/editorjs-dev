@@ -3,4 +3,4 @@ declare module "*.svg" {
   export default content;
 }
 
-declare module '@editorjs/header';
+declare module "@editorjs/header";
