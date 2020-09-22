@@ -6,14 +6,12 @@
     "prettify": "prettier --write src",
     "serve": "http-server . -o"
   },
-  "dependencies": {
-    "@editorjs/header": "^2.5.0"
-  },
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@babel/preset-env": "^7.11.5",
     "@editorjs/editorjs": "^2.18.0",
-    "@jakekara/editorjs-footnotes": "file:editorjs-footnotes",
+    "@editorjs/header": "^2.5.0",
+    "@jakekara/editorjs-footnotes": "github:jakekara/editorjs-footnotes#v0",
     "babel-loader": "^8.1.0",
     "css-loader": "^4.3.0",
     "http-server": "^0.12.3",
